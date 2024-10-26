@@ -13,7 +13,7 @@
 
 <body class="bg-black text-white">
     <div class="container flex mx-auto ">
-        <div class="first w-[21%] flex flex-col gap-4">
+        <div class="first md:w-[24%] lg:w-[21%] flex flex-col gap-4 h-full  top-0">
             <div class="logo hover:bg-[#181818] cursor-pointer w-14 py-3  px-2 rounded-full ">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                     class="w-8 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk ">
@@ -25,47 +25,47 @@
                 </svg>
             </div>
             <div class="sidebar">
-                <ul class="flex flex-col gap-3 text-xl">
+                <ul class="flex flex-col gap-3 text-xl  md:items-stretch items-end">
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full ">
-                        <span class="material-symbols-outlined text-3xl">home</span>Home
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">home</span><span class="hidden md:block">Home</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">search</span>Explore
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">search</span><span class="hidden md:block">Explore</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">notifications</span>Notification
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">notifications</span><span class="hidden md:block">Notification</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">mail</span>Messages
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">mail</span><span class="hidden md:block">Messages</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">indeterminate_check_box</span>Grok
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">indeterminate_check_box</span><span class="hidden md:block">Grok</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">groups</span>Communities
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">groups</span><span class="hidden md:block">Communities</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">person</span>Profile
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">person</span><span class="hidden md:block">Profile</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-fit pr-6 pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
-                        <span class="material-symbols-outlined text-3xl">more_horiz</span>More
+                        class="flex gap-3 items-center w-fit pr-4 md:pr-6 md:pl-2 py-1 hover:bg-[#181818] hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined text-3xl">more_horiz</span><span class="hidden md:block">More</span>
                     </li>
                     <li
-                        class="flex gap-3 items-center w-10/12 pr-6 pl-2 py-2 bg-blue-500 hover:bg-blue-600 hover:cursor-pointer rounded-full justify-center font-semibold ">
+                        class="flex gap-3 items-center w-10/12 pr-4 md:pr-6 md:pl-2 py-2 bg-blue-500 hover:bg-blue-600 hover:cursor-pointer rounded-full justify-center font-semibold ">
                         Post
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="second w-[47%] border border-x-[#202327] border-y-black">
+        <div class="second w-full md:w-[47%] sm:w-[60%] border border-x-[#202327] border-y-black">
             <div class="top flex relative text-base font-semibold ">
                 <div class="line bg-blue-500 w-14 absolute z-10 left-[7.6rem] bottom-0 h-1 rounded-full "></div>
                 <div class="for-you text-white w-1/2 flex justify-center p-4 hover:bg-[#181818] cursor-pointer ">For you
@@ -116,14 +116,14 @@
                 posts</div>
             <div class="hr w-full bg-[#202327] h-[1px]"></div>
 
-            <div class="posts">
+            <div class="posts w-full">
                 <div class="post flex hover:bg-[#18181871] cursor-pointer">
-                    <div class="image p-4">
+                    <div class="image py-4 sm:px-4 px-1">
                         <img alt="" draggable="true"
                             src="https://pbs.twimg.com/profile_images/1845482317860450309/OrD0ovmf_normal.jpg"
-                            class="rounded-full w-11">
+                            class="rounded-full w-10">
                     </div>
-                    <div class="content">
+                    <div class="content lg:w-[90%] md:w-[82%] ">
                         <div class="user mt-3 flex justify-between">
                             <div class="">
                                 <span class="font-bold hover:underline">Elon Musk</span>
@@ -237,7 +237,7 @@
             </div>
 
         </div>
-        <div class="third w-[32%] ">
+        <div class="third w-[32%] hidden sm:block">
             <div class="search m-3">
                 <input type="search"
                     class="w-full bg-[#202327] text-white placeholder-[#757575] rounded-full ml-4 px-4 py-2 focus:outline-[#1D9BF0] focus:outline"
@@ -306,7 +306,9 @@
                 <div class="text-base cursor-pointer text-blue-500  mt-1 py-3 pl-4 hover:bg-[#181818]">Show more</div>
             </div>
         </div>
+        
     </div>
+    
 </body>
 
 </html>
