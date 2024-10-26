@@ -64,7 +64,7 @@ Don't forget to give the project a star! Thanks again!
 
 Abdullah Shamoon - [@LinkedIn](https://www.linkedin.com/in/abdullah-shamoon12) - abdullahshamoon24@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://abdullahshamoon.github.io/X_Twitter_Clone/](https://abdullahshamoon.github.io/X_Twitter_Clone/)
 
 
 
